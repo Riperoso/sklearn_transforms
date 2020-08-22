@@ -1,4 +1,8 @@
 from sklearn.base import BaseEstimator, TransformerMixin
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier # Import Decision Tree Classifier
+from sklearn.model_selection import train_test_split # Import train_test_split function
+from sklearn import metrics #Import scikit-learn metrics module for accuracy calculation
 
 
 # All sklearn Transforms must have the `transform` and `fit` methods
